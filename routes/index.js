@@ -11,5 +11,14 @@ router.get('/Majors', function(req, res, next) {
   res.render('Majors', { title: 'TAMU Engineering Dictionary of Majors' });
 });
 
+/* GET about page. */
+router.get('/About', function(req, res, next) {
+  res.render('About', { title: 'TAMU Engineering Dictionary of Majors' });
+});
+
+/* GET departments page. */
+router.get('/Departments', function(req, res, next) {
+  res.render('Departments', { title: 'TAMU Engineering Dictionary of Majors' });
+});
 
 module.exports = router;
