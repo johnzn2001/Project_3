@@ -11,6 +11,11 @@ router.get('/Majors', function(req, res, next) {
   res.render('Majors', { title: 'TAMU Engineering Dictionary of Majors' });
 });
 
+//----------- TEMPORARY FUNCTION -------------
+router.get('/Sample', function(req, res, next) {
+  res.render('Sample', { title: 'TAMU Engineering Dictionary of Majors' });
+});
+
 /* GET about page. */
 router.get('/About', function(req, res, next) {
   res.render('About', { title: 'TAMU Engineering Dictionary of Majors' });
