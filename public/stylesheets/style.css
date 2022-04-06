@@ -19,14 +19,19 @@ a:hover {
 }
 
 .topnav {
-  position: -webkit-sticky; /* Safari */
-  position: sticky;
-  overflow: hidden;
+  overflow: visible;
   display: block;
-  background-color: #500000; <!-- maroon -->
+  background-color: #500000; /* maroon */
+  padding: 8px;
   margin: 0;
   top: 0;
-  padding: 8px;
+  height: 50px;
+}
+
+#navBar {
+  position: sticky;
+  position: -webkit-sticky; /* safari web requires */
+  top: 0;
 }
 
 .topnav a {
