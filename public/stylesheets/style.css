@@ -59,3 +59,10 @@ a:hover {
   background-color: #D3D3D3;
   text-align: left;
 }
+
+.centeredcontainer {
+  padding: 30px; /* fills out the container */
+  max-width: 100%; /* container to adjust on smaller widths */
+  background-color: #D3D3D3;
+  text-align: center;
+}
