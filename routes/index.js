@@ -26,4 +26,9 @@ router.get('/Departments', function(req, res, next) {
   res.render('Departments', { title: 'TAMU Engineering Dictionary of Majors' });
 });
 
+/* GET CSCE Department page. */
+router.get('/DEPT-CSCE', function(req, res, next) {
+  res.render('DEPT-CSCE', { title: 'TAMU Engineering: Computer Science and Engineering Department' });
+});
+
 module.exports = router;
