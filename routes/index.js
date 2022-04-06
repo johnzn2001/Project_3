@@ -11,9 +11,9 @@ router.get('/Majors', function(req, res, next) {
   res.render('Majors', { title: 'TAMU Engineering Dictionary of Majors' });
 });
 
-//----------- TEMPORARY FUNCTION -------------
-router.get('/Sample', function(req, res, next) {
-  res.render('Sample', { title: 'TAMU Engineering Dictionary of Majors' });
+/* GET Computer Science page. */
+router.get('/CompSci', function(req, res, next) {
+  res.render('CompSci', { title: 'TAMU Engineering: Computer Science' });
 });
 
 /* GET about page. */
