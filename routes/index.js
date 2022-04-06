@@ -43,7 +43,7 @@ router.get('/Bio', function(req, res, next) {
   res.render('Bio', { title: 'TAMU Engineering: Biological and Agricultural Engineering' });
 });
 
-router.get('BioMed', function(req, res, next) {
+router.get('/BioMed', function(req, res, next) {
   res.render('BioMed', { title: 'TAMU Engineering: Biomedical Engineering' });
 });
 
