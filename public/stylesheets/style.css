@@ -3,13 +3,25 @@ body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
-a {
-  color: #00B7FF;
+a:link {
+  color: #500000;
+}
+
+a:visited {
+  color: purple;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: dimgrey;
+  text-decoration: underline;
 }
 
 .topnav {
   overflow: hidden;
   background-color: #500000; <!-- maroon -->
+  margin: 0;
+  padding: 0;
 }
 
 .topnav a {
