@@ -10,8 +10,9 @@ html
                 a(href='/Majors') Majors
                 a(href='/Departments') Departments
                 a.active(href='/About') About
-                section(role='search' data-ss360='true')
-                    input#searchBox(type='search' placeholder='Search…')
-                    button#searchButton
+                div.topnavSearch
+                    form
+                        input#searchBox(type='search' placeholder='Search…')
+                        button#searchButton
         block content
     <script async src="https://js.sitesearch360.com/plugin/bundle/2466.js"></script>
