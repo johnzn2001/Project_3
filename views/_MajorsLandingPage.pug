@@ -1,0 +1,19 @@
+doctype html
+html
+    head
+        title= title
+        link(rel='stylesheet', href='/stylesheets/style.css')
+    body
+        nav#navBar
+            div.topnav
+                a(href='/') Home
+                a.active(href='/Majors') Majors
+                a(href='/Departments') Departments
+                a(href='/About') About
+                div.topnavSearch
+                    form
+                        input#searchBox(type='search' placeholder='Search…')
+                        button#searchButton
+        block content
+        script(src="/javascripts/YouTube.js")
+        <script async src="https://js.sitesearch360.com/plugin/bundle/2466.js"></script>
