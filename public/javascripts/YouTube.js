@@ -1,3 +1,6 @@
+//This code is the Youtube API
+//This is for the videos housed within the Majors pages
+//This particular code creates an Iframe player
 // 2. This code loads the IFrame Player API code asynchronously.
 var tag = document.createElement('script');
 

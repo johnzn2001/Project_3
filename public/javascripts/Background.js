@@ -1,3 +1,6 @@
+//This code utilizes the YouTube Iframe API
+//This is for the looping background video on the landing page
+//This code uses an existing Iframe element
 var tag = document.createElement('script');
 tag.id = 'bgvideo';
 tag.src = 'https://www.youtube.com/iframe_api';

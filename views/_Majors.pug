@@ -14,9 +14,18 @@ html
                     form
                         input#searchBox(type='search' placeholder='Search…')
                         button#searchButton
+        button.collapsible(type='button') Text to Speech Controls
+        .ttsControls
+            //add controls here
+            p testing controls
+            button#play
+            button#pause
+            button#stop
         block content
         block append footer
             include _Comments
 
         script(src="/javascripts/YouTube.js")
         <script async src="https://js.sitesearch360.com/plugin/bundle/2466.js"></script>
+        script(src="/javascripts/ttsCollapsible.js")
+        script(src="/javascripts/ttsMainBodyCode.js")
