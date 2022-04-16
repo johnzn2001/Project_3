@@ -1,6 +1,8 @@
 // This code is for the Web Speech JavaScript API
 // This allows for Text-to-Speech functionality
 onload = function () {
+    var synth = speechSynthesis;
+    synth.cancel();
     if ('speechSynthesis' in window){
         //tts is supported
         var synth = speechSynthesis;
