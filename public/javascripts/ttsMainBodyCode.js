@@ -33,7 +33,7 @@ onload = function () {
                 utterance = new SpeechSynthesisUtterance(
                     document.querySelector('article').textContent);
                 //first TTS voice
-                utterance.voice = synth.getVoices()[0];
+                utterance.voice = synth.getVoices()[1];
                 //document done being read
                 utterance.onend = function(){
                     flag = false;
