@@ -32,6 +32,7 @@ a:hover {
   position: sticky;
   position: -webkit-sticky; /* safari web requires */
   top: 0;
+  z-index: 2;
 }
 
 .topnav a {
@@ -69,6 +70,10 @@ a:hover {
 
 .topnav .topnavSearch {
   float: right;
+}
+
+.unibox {
+  z-index: 2 !important;
 }
 
 .topnav input[type=search] {
@@ -138,6 +143,7 @@ a:hover {
   position: sticky;
   position: -webkit-sticky; /* safari web requires */
   top: 66px;
+  z-index: 1;
 }
 
 .collapsible.active, .collapsible:hover {
