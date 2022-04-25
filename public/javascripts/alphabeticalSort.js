@@ -38,6 +38,7 @@ function alphSort() {
         if (shouldSwitch) {
             /* If a switch has been marked, make the switch
             and mark that a switch has been done: */
+
             //  console.log("Parent");
             //  console.log(b[i]);
             //  console.log(b[i].parentNode);
