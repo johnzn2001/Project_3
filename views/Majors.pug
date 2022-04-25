@@ -5,10 +5,10 @@ block content
     h1(style="text-align:center;")= title
     h3(style="text-align:center;") This is where you will find a list of all the Engineering Majors offered at A&M
 
-    button(onclick="/javascripts/alphabeticalSort.js") Alphabetical Sort
+    button(onclick="alphSort()") Alphabetical Sort
 
-    div.container
-        dl.majorslist
+    div#majorscontainer.container
+        dl#majorslist
             dt
                 h1
                     a(href='/Aero') Aerospace Engineering
