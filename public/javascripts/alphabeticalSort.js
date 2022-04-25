@@ -1,9 +1,9 @@
 function alphSort() {
-    console.log("WEEEEEEEEEEEEEEEEEEEEEEEE");
-    var list, i, switching, b, shouldSwitch, dir, switchcount = 0;
+    //console.log("Just your average debug: 2");
+    var list, i, switching, b, desc, shouldSwitch, dir, switchcount = 0;
     list = document.getElementById("majorslist");
-    console.log("list: ");
-    console.log(list);
+    //console.log("list: ");
+    //console.log(list);
     switching = true;
     // Set the sorting direction to ascending:
     dir = "asc";
@@ -11,7 +11,8 @@ function alphSort() {
     while (switching) {
         // Start by saying: no switching is done:
         switching = false;
-        b = list.getElementsByTagName("a");
+        b = list.getElementsByTagName("DT");
+        desc = list.getElementsByTagName("DD");
         // Loop through all list-items:
         for (i = 0; i < (b.length - 1); i++) {
             // Start by saying there should be no switching:
@@ -37,7 +38,19 @@ function alphSort() {
         if (shouldSwitch) {
             /* If a switch has been marked, make the switch
             and mark that a switch has been done: */
+             console.log("Parent");
+             console.log(b[i]);
+             console.log(b[i + 1])
+             console.log("Desc");
+             console.log(desc[i].childNodes);
+             console.log(desc[i + 1].childNodes);
+             //break;
             b[i].parentNode.insertBefore(b[i + 1], b[i]);
+            break
+            //TODO
+            //switches heading, also need to switch its descriptions
+            desc[i].parentNode.insertBefore(desc[i + 1], desc[i]);
+
             switching = true;
             // Each time a switch is done, increase switchcount by 1:
             switchcount++;
