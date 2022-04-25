@@ -12,7 +12,7 @@ router.get('/Majors', function(req, res, next) {
 });
 
 /* GET Computer Science page. */
-router.get('/CompSci', function(req, res, next) {
+router.get('/ComputerSci', function(req, res, next) {
   res.render('CompSci', { title: 'TAMU Engineering: Computer Science' });
 });
 
@@ -95,7 +95,7 @@ router.get('/Aero', function(req, res, next) {
   res.render('Aero', { title: 'TAMU Engineering: Aerospace Engineering' });
 });
 
-router.get('/Bio', function(req, res, next) {
+router.get('/Biolog', function(req, res, next) {
   res.render('Bio', { title: 'TAMU Engineering: Biological and Agricultural Engineering' });
 });
 
@@ -115,11 +115,11 @@ router.get('/Electrical', function(req, res, next) {
   res.render('Electrical', { title: 'TAMU Engineering: Electrical Engineering' });
 });
 
-router.get('/Computer', function(req, res, next) {
+router.get('/ComputerEng', function(req, res, next) {
   res.render('Computer', { title: 'TAMU Engineering: Computer Engineering' });
 });
 
-router.get('/Indus', function(req, res, next) {
+router.get('/EngTech', function(req, res, next) {
   res.render('Indus', { title: 'TAMU Engineering: Engineering Technology and Industrial Distribution' });
 });
 
@@ -143,12 +143,8 @@ router.get('/Ocean', function(req, res, next) {
   res.render('Ocean', { title: 'TAMU Engineering: Ocean Engineering' });
 });
 
-router.get('/Systems', function(req, res, next) {
+router.get('/IndusEng', function(req, res, next) {
   res.render('Systems', { title: 'TAMU Engineering: Industrial Engineering' });
-});
-
-router.get('/Computer', function(req, res, next) {
-  res.render('Computer', { title: 'TAMU Engineering: Computer Engineering' });
 });
 
 router.get('/Environ', function(req, res, next) {
@@ -163,7 +159,7 @@ router.get('/Electronic', function(req, res, next) {
   res.render('Electronic', { title: 'TAMU Engineering: Electronic Systems Engineering' });
 });
 
-router.get('/Distrib', function(req, res, next) {
+router.get('/IndusDis', function(req, res, next) {
   res.render('Distrib', { title: 'TAMU Engineering: Industrial Distribution' });
 });
 

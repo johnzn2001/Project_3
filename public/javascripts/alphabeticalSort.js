@@ -38,19 +38,41 @@ function alphSort() {
         if (shouldSwitch) {
             /* If a switch has been marked, make the switch
             and mark that a switch has been done: */
-             console.log("Parent");
-             console.log(b[i]);
-             console.log(b[i + 1])
-             console.log("Desc");
-             console.log(desc[i].childNodes);
-             console.log(desc[i + 1].childNodes);
+            //  console.log("Parent");
+            //  console.log(b[i]);
+            //  console.log(b[i].parentNode);
+            //  console.log(b[i + 1]);
+            //  console.log("Desc");
+            //  console.log(desc[i].innerHTML);
+            //  console.log(desc[i].parentNode);
+            // console.log(desc[i].firstChild);
              //break;
+            //desc[i].parentNode.insertBefore(desc[i + 1], desc[i]);
             b[i].parentNode.insertBefore(b[i + 1], b[i]);
-            break
+            //break;
             //TODO
             //switches heading, also need to switch its descriptions
             desc[i].parentNode.insertBefore(desc[i + 1], desc[i]);
-
+            //desc[i].parentNode.insertBefore(b[i + 1], b[i]);
+            // console.log("desc i");
+            // console.log(desc[i]);
+            // console.log(desc[i+1]);
+            // console.log(b[i]);
+            // console.log(b[i + 1]);
+            // console.log("list");
+            // console.log(b.length);
+            // console.log(desc.length);
+            // console.log(i);
+            // console.log(list.childNodes);
+            // console.log(list.childNodes[i*2]);
+            // console.log(list.childNodes[i*2 + 2]);
+            // console.log(list.childNodes[i*2 + 1]);
+            list.childNodes[(i*2) + 2].parentNode.insertBefore(list.childNodes[(i*2)+1], list.childNodes[(i*2) + 3]);
+            // console.log("after: ");
+            // console.log(list.childNodes[i*2]);
+            // console.log(list.childNodes[i*2 + 2]);
+            // console.log(list.childNodes[i*2 + 1]);
+            //break;
             switching = true;
             // Each time a switch is done, increase switchcount by 1:
             switchcount++;
