@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font: 16px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
 a:link {
@@ -117,7 +117,7 @@ a:hover {
 .background {
   position: fixed;
   right: 0;
-  bottom: 0;
+  bottom: -153px;
   width: auto;
   min-width: 100%;
   height: auto;
