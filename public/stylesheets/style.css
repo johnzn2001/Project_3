@@ -130,6 +130,11 @@ a:hover {
   pointer-events: none;
 }
 
+#player {
+  display: block;
+  margin: auto;
+}
+
 .collapsible {
   background-color: #777;
   color: white;
