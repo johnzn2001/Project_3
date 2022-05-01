@@ -250,3 +250,9 @@ a:hover {
   text-align: center;
   background-color: #f1f1f1;
 }
+
+.cardflex {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
