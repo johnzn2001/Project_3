@@ -32,11 +32,11 @@ router.get('/DEPT-CSCE', function(req, res, next) {
 });
 
 router.get('/DEPT-ENGR', function(req, res, next) {
-  res.render('DEPT-ENGR', { title: 'TAMU Engineering: College of Engineering' });
+  res.render('DEPT-ENGR', { title: 'TAMU Engineering: Biological and Agricultural Engineering Department' });
 });
 
 router.get('/DEPT-AERO', function(req, res, next) {
-  res.render('DEPT-AERO', { title: 'TAMU Engineering: Department of Aerospace Engineering' });
+  res.render('DEPT-AERO', { title: 'TAMU Engineering: Aerospace Engineering Department' });
 });
 
 router.get('/DEPT-BIO', function(req, res, next) {
@@ -84,7 +84,7 @@ router.get('/DEPT-PETR', function(req, res, next) {
 });
 
 router.get('/DEPT-INSY', function(req, res, next) {
-  res.render('DEPT-INSY', { title: 'TAMU Engineering: Industrial and Systems Engineering' });
+  res.render('DEPT-INSY', { title: 'TAMU Engineering: Industrial and Systems Engineering Department' });
 });
 
 router.get('/Petrol', function(req, res, next) {
