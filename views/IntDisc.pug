@@ -2,26 +2,47 @@ extends _Majors
 
 block content
 
-    h1= title
-    p Welcome to the Interdisciplinary Engineering page!
+    div.titles
+        h1= title
+        p Welcome to the Interdisciplinary Engineering page!
     
-    meta(name='Video', content='F5UQjxD8oBk')
-    div#player
     
-    h2 Information About Major 
-    p Interdisciplinary engineering is a highly unique career category that allows for these engineers to learn a variety of skills that can be applied to many different places. It is designed for students who want to practice engineering around a focused concentration by combining or involving several academic disciplines. These engineers work to bring their expertise and science together to work on one integrated plan for a project; this could include work between engineers in a technical field, medical field, or many more disciplines. 
-    h2 TAMU Info 
-    p At Texas A&M, those who are pursuing an Interdisciplinary engineering degree will learn to develop a unique skill set and will specialize in areas that are not normally provided in a traditional department degree program. These specializations will be driven by either emerging technical fields or by a specific student’s desire to have an immersive interdisciplinary experience. Students will pursue their specific discipline with the backing of mathematics, physics, and various other sciences in order to create a foundation for their studies. Interdisciplinary engineering requires a total of 128 credit hours to complete. 
-    h2 Statistics
-    p [enter statistics]
-    h2 Companies 
-    ul 
-        li General Services Administration
-        li Federal Emergency Management Agency
-        li TechDigital Corporation 
-    h2 Preparation 
-    ol 
-        li Research
-        li Practice 
-        li Participate in Clubs 
-        li Personal Projects 
+    .inforow 
+        .leftflex 
+            div.start
+                h2 Information About Major 
+                p Interdisciplinary engineering is a highly unique career category that allows for these engineers to learn a variety of skills that can be applied to many different places. It is designed for students who want to practice engineering around a focused concentration by combining or involving several academic disciplines. These engineers work to bring their expertise and science together to work on one integrated plan for a project; this could include work between engineers in a technical field, medical field, or many more disciplines. 
+            div.info
+                h2 TAMU Info 
+                p At Texas A&M, those who are pursuing an Interdisciplinary engineering degree will learn to develop a unique skill set and will specialize in areas that are not normally provided in a traditional department degree program. These specializations will be driven by either emerging technical fields or by a specific student’s desire to have an immersive interdisciplinary experience. Students will pursue their specific discipline with the backing of mathematics, physics, and various other sciences in order to create a foundation for their studies. Interdisciplinary engineering requires a total of 128 credit hours to complete. 
+
+            .tableinfo
+                table
+                    tr
+                        th
+                            h2 Statistics
+                        th
+                            h2 Companies
+                        th
+                            h2 Preparation
+                    tr
+                        td
+                            ul
+                                li 60%
+                                li 40%
+                                li 60%
+                        td
+                            ul
+                                li General Services Administration
+                                li Federal Emergency Management Agency
+                                li TechDigital Corporation 
+                        td
+                            ul
+                                li Research
+                                li Practice
+                                li Participate in Clubs
+                                li Personal Projects 
+
+        .rightflex 
+            meta(name='Video', content='F5UQjxD8oBk')
+            div#player

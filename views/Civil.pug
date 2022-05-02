@@ -2,26 +2,46 @@ extends _Majors
 
 block content
 
-    h1= title
-    p Welcome to the Civil Engineering page!
+    div.titles
+        h1= title
+        p Welcome to the Civil Engineering page!
     
-    meta(name='Video', content='05bcDyfhrMI')
-    div#player
     
-    h2 Information About Major 
-    p Civil engineering is an engineering discipline that deals with the design, maintenance, and construction of the physical health and naturally built environment, including public works like bridges, canals, roads, dams, airports, sewage systems, structural components of buildings, railways, and pipelines. These engineers tend to work in a variety of environments and conditions, often splitting time between office and outdoor work. This is another engineering discipline that is very old; it can be dated back to the first time a human put a roof over their head. They work closely with many different types of engineers and industries like aerospace, in the design of jetliners and space stations. It is one of the few engineering careers where an individual can physically see their work, like in the final construction of a bridge. 
-    h2 TAMU Info 
-    p At Texas A&M, civil engineering students take courses in all major subdisciplines of civil engineering with advanced design and a choice in electives that allows for deeper learning in these select subjects. There are 8 total tracks inside civil engineering: coastal and ocean, construction engineering and management, environmental engineering, general, geotechnical engineering, structural engineering, transportation and materials engineering, and water resources engineering tracks. Each track has unique traits to them that allow for the student to study deeper in the discipline that they prefer. Civil engineering takes about 128 credit hours to complete.
-    h2 Statistics
-    p [enter statistics]
-    h2 Companies 
-    ul 
-        li AECOM 
-        li Jacobs 
-        li Black & Veatch 
-    h2 Preparation 
-    ol 
-        li Research
-        li Practice 
-        li Participate in Clubs 
-        li Personal Projects 
+    .inforow 
+        .leftflex 
+            div.start
+                h2 Information About Major 
+                p Civil engineering is an engineering discipline that deals with the design, maintenance, and construction of the physical health and naturally built environment, including public works like bridges, canals, roads, dams, airports, sewage systems, structural components of buildings, railways, and pipelines. These engineers tend to work in a variety of environments and conditions, often splitting time between office and outdoor work. This is another engineering discipline that is very old; it can be dated back to the first time a human put a roof over their head. They work closely with many different types of engineers and industries like aerospace, in the design of jetliners and space stations. It is one of the few engineering careers where an individual can physically see their work, like in the final construction of a bridge. 
+            div.info   
+                h2 TAMU Info 
+                p At Texas A&M, civil engineering students take courses in all major subdisciplines of civil engineering with advanced design and a choice in electives that allows for deeper learning in these select subjects. There are 8 total tracks inside civil engineering: coastal and ocean, construction engineering and management, environmental engineering, general, geotechnical engineering, structural engineering, transportation and materials engineering, and water resources engineering tracks. Each track has unique traits to them that allow for the student to study deeper in the discipline that they prefer. Civil engineering takes about 128 credit hours to complete.
+                
+            .tableinfo
+                table
+                    tr
+                        th
+                            h2 Statistics
+                        th
+                            h2 Companies
+                        th
+                            h2 Preparation
+                    tr
+                        td
+                            ul
+                                li 60%
+                                li 40%
+                                li 60%
+                        td
+                            ul
+                                li AECOM 
+                                li Jacobs 
+                                li Black & Veatch
+                        td
+                            ul
+                                li Research
+                                li Practice
+                                li Participate in Clubs
+                                li Personal Projects
+        .rightflex  
+            meta(name='Video', content='05bcDyfhrMI')
+            div#player

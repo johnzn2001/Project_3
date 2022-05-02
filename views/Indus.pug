@@ -2,26 +2,47 @@ extends _Majors
 
 block content
 
-    h1= title
-    p Welcome to the Engineering Technology page!
+    div.titles
+        h1= title
+        p Welcome to the Engineering Technology page!
     
-    meta(name='Video', content='9LKJOMwi_20')
-    div#player
     
-    h2 Information About Major 
-    p Engineering technology uses the practical application of science and engineering to solve a wide range of real-world problems. The difference between engineering and engineering technology is that engineering technology majors tend to work with technicians, engineers, and scientists to form technological teams that produce technological advancements. The two different major types overlap quite a bit, so the differences between general engineering and engineering technology are not always obvious. Engineering technology graduates are also highly skilled in networking within both engineering and business disciplines. 
-    h2 TAMU Info 
-    p At Texas A&M, there are three different types of engineering technology majors offered: Electronic Systems Engineering Technology, Manufacturing and Mechanical Engineering Technology, and Multidisciplinary Engineering Technology. Electronic systems tends to combine engineering and industrial knowledge in electronics, communication, embedded systems, testing, instrumentation and control systems to develop innovative products. Manufacturing and mechanical works with a more dynamic study in understanding material properties, product design, costs, process technologies, and manufacturing systems. Multidisciplinary is a more broader type of technology major where they emphasis mechatronics involving mechanical, electrical, communications, control, and computer systems. All three of these engineering technology majors take around 127 credit hours to complete. 
-    h2 Statistics
-    p [enter statistics]
-    h2 Companies 
-    ul 
-        li Apple 
-        li Texas Instruments
-        li Verizon
-    h2 Preparation 
-    ol 
-        li Research
-        li Practice 
-        li Participate in Clubs 
-        li Personal Projects 
+    .inforow    
+        .leftflex 
+            div.start
+                h2 Information About Major 
+                p Engineering technology uses the practical application of science and engineering to solve a wide range of real-world problems. The difference between engineering and engineering technology is that engineering technology majors tend to work with technicians, engineers, and scientists to form technological teams that produce technological advancements. The two different major types overlap quite a bit, so the differences between general engineering and engineering technology are not always obvious. Engineering technology graduates are also highly skilled in networking within both engineering and business disciplines. 
+            div.info
+                h2 TAMU Info 
+                p At Texas A&M, there are three different types of engineering technology majors offered: Electronic Systems Engineering Technology, Manufacturing and Mechanical Engineering Technology, and Multidisciplinary Engineering Technology. Electronic systems tends to combine engineering and industrial knowledge in electronics, communication, embedded systems, testing, instrumentation and control systems to develop innovative products. Manufacturing and mechanical works with a more dynamic study in understanding material properties, product design, costs, process technologies, and manufacturing systems. Multidisciplinary is a more broader type of technology major where they emphasis mechatronics involving mechanical, electrical, communications, control, and computer systems. All three of these engineering technology majors take around 127 credit hours to complete. 
+
+            .tableinfo
+                table
+                    tr
+                        th
+                            h2 Statistics
+                        th
+                            h2 Companies
+                        th
+                            h2 Preparation
+                    tr
+                        td
+                            ul
+                                li 60%
+                                li 40%
+                                li 60%
+                        td
+                            ul
+                                li Apple 
+                                li Texas Instruments
+                                li Verizon
+                        td
+                            ul
+                                li Research
+                                li Practice
+                                li Participate in Clubs
+                                li Personal Projects    
+            
+        .rightflex
+            meta(name='Video', content='9LKJOMwi_20')
+            div#player

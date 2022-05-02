@@ -2,26 +2,46 @@ extends _Majors
 
 block content
 
-    h1= title
-    p Welcome to the Chemical Engineering page!
+    div.titles
+        h1= title
+        p Welcome to the Chemical Engineering page!
     
-    meta(name='Video', content='RJeWKvQD90Y')
-    div#player
     
-    h2 Information About Major 
-    p Chemical engineering is involved in the production and manufacturing of products through chemical processes which includes designing equipment, processes and systems for refining raw materials and mixing, processing, and compounding chemicals. These engineers use math, chemistry, biology, physics, and materials science to create these systems. They work heavily alongside mechanical, aerospace, materials, civil, and electrical engineers. They also tend to solve problems that involve the use of fuel, food, drugs, and many other products. Chemical engineers affect the production of almost every article manufactured on an industrial scale including finding production costs, designing and planning equipment layout, etc. 
-    h2 TAMU Info 
-    p At Texas A&M, chemical engineering students learn curriculum that provides a balance in education in just about every aspect of chemical engineering principles and practice. This includes education in economics, philosophy, culture, language, and communication.  The classes emphasize fundamentals and methods that are used in the design, operation, analysis, and development of many different chemical systems and processes. In doing so, these students are able to have an adequate background for the activities previously mentioned. Chemical engineering takes 128 credit hours to complete. 
-    h2 Statistics
-    p [enter statistics]
-    h2 Companies 
-    ul 
-        li US Army 
-        li ExxonMobil
-        li Honeywell
-    h2 Preparation 
-    ol 
-        li Research
-        li Practice 
-        li Participate in Clubs 
-        li Personal Projects 
+    .inforow    
+        .leftflex   
+            div.start
+                h2 Information About Major 
+                p Chemical engineering is involved in the production and manufacturing of products through chemical processes which includes designing equipment, processes and systems for refining raw materials and mixing, processing, and compounding chemicals. These engineers use math, chemistry, biology, physics, and materials science to create these systems. They work heavily alongside mechanical, aerospace, materials, civil, and electrical engineers. They also tend to solve problems that involve the use of fuel, food, drugs, and many other products. Chemical engineers affect the production of almost every article manufactured on an industrial scale including finding production costs, designing and planning equipment layout, etc. 
+            div.info    
+                h2 TAMU Info 
+                p At Texas A&M, chemical engineering students learn curriculum that provides a balance in education in just about every aspect of chemical engineering principles and practice. This includes education in economics, philosophy, culture, language, and communication.  The classes emphasize fundamentals and methods that are used in the design, operation, analysis, and development of many different chemical systems and processes. In doing so, these students are able to have an adequate background for the activities previously mentioned. Chemical engineering takes 128 credit hours to complete. 
+                
+            .tableinfo
+                table
+                    tr
+                        th
+                            h2 Statistics
+                        th
+                            h2 Companies
+                        th
+                            h2 Preparation
+                    tr
+                        td
+                            ul
+                                li 60%
+                                li 40%
+                                li 60%
+                        td
+                            ul
+                                li US Army 
+                                li ExxonMobil
+                                li Honeywell
+                        td
+                            ul
+                                li Research
+                                li Practice
+                                li Participate in Clubs
+                                li Personal Projects    
+        .rightflex 
+            meta(name='Video', content='RJeWKvQD90Y')
+            div#player

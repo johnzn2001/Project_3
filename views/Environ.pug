@@ -2,26 +2,47 @@ extends _Majors
 
 block content
 
-    h1= title
-    p Welcome to the Environmental Engineering page!
+    div.titles
+        h1= title
+        p Welcome to the Environmental Engineering page!
 
-    meta(name='Video', content='Y8CvWDt9n3g')
-    div#player
+    
+    .inforow
+        .leftflex   
+            div.start
+                h2 Information About Major 
+                p  Environmental engineers utilize soil science, biology, engineering, and chemistry principles to develop solutions for environmental problems. They generally work to solve or improve waste disposal, recycling, water and air pollution control, and public health issues. This type of engineering has a large amount of history, dating back to the beginning of the cultivation of land by humans. They also work to find the effects of technological advancements on the environment, especially in addressing major environmental issues like acid rain, ozone depletion, global warming, water pollution, and air pollution from automobile and other industrial sources. Environmental engineering also is known to have close ties with civil and chemical engineering. 
+            div.info
+                h2 TAMU Info 
+                p At Texas A&M, environmental engineering majors specifically have coursework that teaches students to solve environmental challenges facing public and environmental health like water treatment, climate change, and waste management. Students in this degree learn from a broad range of studies such as natural sciences and engineering, which allows for a multidisciplinary approach in learning. This program is seeking those that are interested in protecting human health and welfare while minimizing negative human effects on the environment. Environmental engineering requires a total of 128 credit hours to complete. 
+                
 
-    h2 Information About Major 
-    p  Environmental engineers utilize soil science, biology, engineering, and chemistry principles to develop solutions for environmental problems. They generally work to solve or improve waste disposal, recycling, water and air pollution control, and public health issues. This type of engineering has a large amount of history, dating back to the beginning of the cultivation of land by humans. They also work to find the effects of technological advancements on the environment, especially in addressing major environmental issues like acid rain, ozone depletion, global warming, water pollution, and air pollution from automobile and other industrial sources. Environmental engineering also is known to have close ties with civil and chemical engineering. 
-    h2 TAMU Info 
-    p At Texas A&M, environmental engineering majors specifically have coursework that teaches students to solve environmental challenges facing public and environmental health like water treatment, climate change, and waste management. Students in this degree learn from a broad range of studies such as natural sciences and engineering, which allows for a multidisciplinary approach in learning. This program is seeking those that are interested in protecting human health and welfare while minimizing negative human effects on the environment. Environmental engineering requires a total of 128 credit hours to complete. 
-    h2 Statistics
-    p [enter statistics]
-    h2 Companies 
-    ul 
-        li AECOM 
-        li SNC-Lavalin 
-        li HDR Inc.
-    h2 Preparation 
-    ol 
-        li Research
-        li Practice 
-        li Participate in Clubs 
-        li Personal Projects 
+            .tableinfo
+                table
+                    tr
+                        th
+                            h2 Statistics
+                        th
+                            h2 Companies
+                        th
+                            h2 Preparation
+                    tr
+                        td
+                            ul
+                                li 60%
+                                li 40%
+                                li 60%
+                        td
+                            ul
+                                li AECOM 
+                                li SNC-Lavalin 
+                                li HDR Inc.
+                        td
+                            ul
+                                li Research
+                                li Practice
+                                li Participate in Clubs
+                                li Personal Projects
+        .rightflex 
+            meta(name='Video', content='Y8CvWDt9n3g')
+            div#player

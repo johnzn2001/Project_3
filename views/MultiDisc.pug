@@ -2,31 +2,53 @@ extends _Majors
 
 block content
 
-    h1= title
-    p Welcome to the Multidisciplinary Engineering Technology page!
+    div.titles
+        h1= title
+        p Welcome to the Multidisciplinary Engineering Technology page!
     
-    meta(name='Video', content='zLr35w2wJQU')
-    div#player
     
-    h2 Information About Major 
-    p Multidisciplinary engineering technology is a unique program to Texas A&M that includes two different focus areas that are prevalent in the industry. The two tracks are the Mechatronics track and the STEM Educator track. Mechatronics engineering technologists use a combination of mechanical, electrical, computer, and software skills to work with smart technologies like robots, automated guided systems, and computer-integrated manufacturing equipment. These engineers are able to not only create these processes, but also can improve upon existing production processes by implementing automation. STEM educators are a unique teacher that provides students in science, technology, engineering, and mathematics. These educators develop STEM curricula, plan daily lessons, and measure student learning progress. 
-    h2 TAMU Info 
-    p At Texas A&M, those who are pursuing the mechatronics engineering track will educate students to design, develop, and support products and systems with a combination of mechanical, electrical, robotics, automation, communication, control, and embedded computing principles. Those pursuing the STEM educator track will educate students to solve problems with technology and STEM related ideas and to teach the next generation of students about mechanical, electrical, robotic, and computing ideas. The STEM education track works with both the College of Engineering and the College of Education and Human Development. Both tracks require students to have a deep understanding of technical problems and systems that will allow for them to have a versatile education. Both degrees require a focus section that depends on which variation of technology they wish to study. Both the STEM education and mechatronics tracks require a total of 127 credit hours to complete. 
-    h2 Statistics
-    p [enter statistics]
-    h2 Companies That Hire Mechatronics Engineers
-    ul 
-        li Amazon 
-        li NASA
-        li HCL Technologies 
-    h2 Companies That Hire STEM Education
-    ul 
-        li APEX Biologix
-        li Science Explorers
-        li Scholarly Online Edutech     
-    h2 Preparation 
-    ol 
-        li Research
-        li Practice 
-        li Participate in Clubs 
-        li Personal Projects 
+    .inforow 
+        .leftflex   
+            div.start
+                h2 Information About Major 
+                p Multidisciplinary engineering technology is a unique program to Texas A&M that includes two different focus areas that are prevalent in the industry. The two tracks are the Mechatronics track and the STEM Educator track. Mechatronics engineering technologists use a combination of mechanical, electrical, computer, and software skills to work with smart technologies like robots, automated guided systems, and computer-integrated manufacturing equipment. These engineers are able to not only create these processes, but also can improve upon existing production processes by implementing automation. STEM educators are a unique teacher that provides students in science, technology, engineering, and mathematics. These educators develop STEM curricula, plan daily lessons, and measure student learning progress. 
+            div.info
+                h2 TAMU Info 
+                p At Texas A&M, those who are pursuing the mechatronics engineering track will educate students to design, develop, and support products and systems with a combination of mechanical, electrical, robotics, automation, communication, control, and embedded computing principles. Those pursuing the STEM educator track will educate students to solve problems with technology and STEM related ideas and to teach the next generation of students about mechanical, electrical, robotic, and computing ideas. The STEM education track works with both the College of Engineering and the College of Education and Human Development. Both tracks require students to have a deep understanding of technical problems and systems that will allow for them to have a versatile education. Both degrees require a focus section that depends on which variation of technology they wish to study. Both the STEM education and mechatronics tracks require a total of 127 credit hours to complete. 
+                
+            .tableinfo
+                table
+                    tr
+                        th
+                            h2 Statistics
+                        th
+                            h2 Companies that Hire Mechatronics Engineers
+                        th
+                            h2 Companies that Hire STEM Education
+                        th
+                            h2 Preparation
+                    tr
+                        td
+                            ul
+                                li 60%
+                                li 40%
+                                li 60%
+                        td
+                            ul
+                                li Amazon 
+                                li NASA
+                                li HCL Technologies 
+                        td
+                            ul
+                                li APEX Biologix
+                                li Science Explorers
+                                li Scholarly Online Edutech
+                        td
+                            ul
+                                li Research
+                                li Practice
+                                li Participate in Clubs
+                                li Personal Projects
+        .rightflex 
+            meta(name='Video', content='zLr35w2wJQU')
+            div#player
