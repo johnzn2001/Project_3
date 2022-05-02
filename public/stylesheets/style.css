@@ -343,3 +343,36 @@ table li {
 footer {
   margin-left: 10px;
 }
+
+.jumbotron .container {
+  max-width: 100%; /* allows the jumbotron to adjust on smaller widths */
+  background-color: #D3D3D3;
+}
+
+.jumbotron .container {
+  max-width: 100%; /* allows the jumbotron to adjust on smaller widths */
+  background-color: blueviolet;
+}
+
+.jumbotron h1 {
+  text-align: center; /* centers the heading */
+  color: #000000;
+  font-weight: 600;
+}
+
+.jumbotron p {
+  text-align: center; /* centers the heading */
+  color: #000000;
+  font-weight: 600;
+}
+
+.depcontainer {
+  display: block;
+  padding: 30px; /* fills out the container */
+  max-width: 100%; /* container to adjust on smaller widths */
+  background-color: #D3D3D3;
+  text-align: left;
+  width: auto;
+  height: auto;
+  overflow:auto;
+}
