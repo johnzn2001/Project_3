@@ -135,6 +135,10 @@ a:hover {
 }
 
 #player {
+ /*display: inline-block;
+  position: relative;
+  top: 23%;
+  left: 55%;*/
   display: block;
   margin: auto;
 }
@@ -255,4 +259,62 @@ a:hover {
   display: flex;
   justify-content: center;
   flex-direction: row;
+}
+
+.start{
+  /*background-color: #D3D3D3;
+  position: relative;
+  width: 50%;
+  top: -400px;
+  border-radius: 1%;*/
+  background-color: #D3D3D3;
+  border-radius: 1%;
+  list-style-position: inside;
+}
+
+.titles{
+  text-align: center;
+}
+
+.info{
+  /*background-color: #D3D3D3;
+  position: relative;
+  top: -400px;
+  width: 50%;
+  border-radius: 1%;*/
+  background-color: #D3D3D3;
+  border-radius: 1%;
+}
+
+.extra{
+  /*position: flex;
+  top: 66%;
+  left: 46%;*/
+  background-color: #D3D3D3;
+  border-radius: 1%;
+}
+
+.extra2{
+  /*position: absolute;
+  left: 60%;
+  top: 66%;*/
+  background-color: #D3D3D3;
+  border-radius: 1%;
+}
+
+.extra3{
+  /*position: absolute;
+  left: 31%;
+  top: 66%;*/
+  background-color: #D3D3D3;
+  border-radius: 1%;
+}
+
+.space{
+  color: white;
+}
+
+.extra4{
+  background-color: #D3D3D3;
+  border-radius: 1%;
 }
