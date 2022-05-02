@@ -353,23 +353,18 @@ footer {
   margin-left: 10px;
 }
 
-.jumbotron .container {
+.depinfo .container {
   max-width: 100%; /* allows the jumbotron to adjust on smaller widths */
   background-color: #D3D3D3;
 }
 
-.jumbotron .container {
-  max-width: 100%; /* allows the jumbotron to adjust on smaller widths */
-  background-color: blueviolet;
-}
-
-.jumbotron h1 {
+.depinfo h1 {
   text-align: center; /* centers the heading */
   color: #000000;
   font-weight: 600;
 }
 
-.jumbotron p {
+.depinfo p {
   text-align: center; /* centers the heading */
   color: #000000;
   font-weight: 600;
