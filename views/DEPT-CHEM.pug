@@ -2,13 +2,20 @@ extends _Departments
 
 block content
 
-    h1= title
-    p Welcome to the Department of Chemical Engineering!
-    h2 Information About Department
-    p The CHEN (Chemical Engineering) Department houses students enrolled within the CHEN major. In Fall 2021, there were 820 undergraduate and 238 graduate students enrolled within this department. For more information on each of the majors within this department, refer to the links below.
+    .jumbotron
+        h1= title
+        p Welcome to the Department of Chemical Engineering!
 
-    h2 Related Majors
-    ul
-        li
-            h3
-                a(href='/Chem') Chemical Engineering
+    .depcontainer
+        h2 Information About Department
+
+        p
+        | The CHEN (Chemical Engineering) Department houses students enrolled within the CHEN major. In Fall 2021,
+        | there were 820 undergraduate and 238 graduate students enrolled within this department. For more information
+        | on each of the majors within this department, refer to the links below.
+
+        h2 Related Majors
+        ul
+            li
+                h3
+                    a(href='/Chem') Chemical Engineering

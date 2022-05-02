@@ -2,22 +2,31 @@ extends _Departments
 
 block content
 
-    h1= title
-    p Welcome to the Department of Engineering Technology and Industrial Distribution!
-    h2 Information About Department
-    p The ETID (Engineering Technology and Industrial Distribution) Department houses students enrolled within the ESET (Electronic Systems Engineering Technology), MMET (Manufacturing and Mechanical Engineering Technology), ID (Industrial Distribution), MXET (Multidisciplinary Engineering Technology) majors. In Fall 2021, there were 2094 undergraduate and 200 graduate students enrolled within this department. For more information on each of the majors within this department, refer to the links below.
+    .jumbotron
+        h1= title
+        p Welcome to the Department of Engineering Technology and Industrial Distribution!
 
-    h2 Related Majors
-    ul
-        li    
-            h3
-                a(href='/IndusDis') Industrial Distribution
-        li
-            h3
-                a(href='/EngTech') Engineering Technology
-        li        
-            h3 
-                a(href='/Manufac') Manufacturing and Mechanical Engineering Technology
-        li    
-            h3
-                a(href='/MultiDisc') Multidisciplinary Engineering
+    .depcontainer
+        h2 Information About Department
+
+        p
+        | The ETID (Engineering Technology and Industrial Distribution) Department houses students enrolled within the
+        | ESET (Electronic Systems Engineering Technology), MMET (Manufacturing and Mechanical Engineering Technology)
+        | , ID (Industrial Distribution), MXET (Multidisciplinary Engineering Technology) majors. In Fall 2021, there
+        | were 2094 undergraduate and 200 graduate students enrolled within this department. For more information on
+        | each of the majors within this department, refer to the links below.
+
+        h2 Related Majors
+        ul
+            li
+                h3
+                    a(href='/IndusDis') Industrial Distribution
+            li
+                h3
+                    a(href='/EngTech') Engineering Technology
+            li
+                h3
+                    a(href='/Manufac') Manufacturing and Mechanical Engineering Technology
+            li
+                h3
+                    a(href='/MultiDisc') Multidisciplinary Engineering

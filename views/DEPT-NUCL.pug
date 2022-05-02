@@ -2,12 +2,15 @@ extends _Departments
 
 block content
 
-    h1= title
-    p Welcome to the Department of Nuclear Engineering!
-    h2 Information About Department
+    .jumbotron
+        h1= title
+        p Welcome to the Department of Nuclear Engineering!
 
-    h2 Related Majors
-    ul
-        li
-            h3
-                a(href='/Nuclear') Nuclear Engineering
+    .depcontainer
+        h2 Information About Department
+
+        h2 Related Majors
+        ul
+            li
+                h3
+                    a(href='/Nuclear') Nuclear Engineering
