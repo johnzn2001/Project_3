@@ -225,13 +225,18 @@ a:hover {
 
 .column {
   float: left;
-  width: 25%;
-  padding: 0 10px;
+  width: 30%;
+  padding: 0 0px;
   margin: auto;
 }
 
 /* Remove extra left and right margins, due to padding */
-.row {margin: 0 -5px;}
+.row {
+  margin: 0 5px;
+  vertical-align: middle;
+  display: flex;
+  flex-wrap: wrap;
+}
 
 /* Clear floats after the columns */
 .row:after {
@@ -255,12 +260,16 @@ a:hover {
   padding: 16px;
   text-align: center;
   background-color: #f1f1f1;
+  border-radius: 25px;
+  margin: 5px;
+  align-self: center;
 }
 
 .cardflex {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   flex-direction: row;
+  vertical-align: middle;
 }
 
 .inforow {
