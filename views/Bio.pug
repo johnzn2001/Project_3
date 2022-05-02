@@ -2,26 +2,57 @@ extends _Majors
 
 block content
 
-    h1= title
-    p Welcome to the Biological and Agricultural Engineering page!
+    div.titles
+        h1= title
+        p Welcome to the Biological and Agricultural Engineering page!
     
-    meta(name='Video', content='SQEy7XQy5wc')
-    div#player
-    
-    h2 Information About Major 
-    p Biological and agricultural engineers are concerned with the design, improvement, and construction of farming machinery and equipment. They integrate technology with farming, like when they design new and improved farming equipment to work more efficiently or perform new tasks. They solve problems concerning power supplies, pollution and environmental issues, machine efficiency, the use of structures and facilities, and the storage and processing of agricultural products. They tend to rarely work in an office setting and instead work in laboratories and on field work. They have an high background in physics, chemistry, biology, and many different types of mathematics. 
-    h2 TAMU Info 
-    p At Texas A&M, students who graduate from Biological and Agricultural engineering will be able to successfully practice with other engineers and consultants in the natural resources, food processing, machine systems, bioprocessing, and agricultural production and processing fields. They are also prepared to pursue research and higher education at major universities in related fields. They are also able to choose an emphasis area that are either Environmental and Natural Resources, Renewable Energy, Food and Bioprocess, and Machine Systems. Biological and agricultural engineering takes 127 credit hours to complete. 
-    h2 Statistics
-    p [enter statistics]
-    h2 Companies 
-    ul 
-        li 3M 
-        li Radom Corp 
-        li EDW. C. Levy CO.
-    h2 Preparation 
-    ol 
-        li Research
-        li Practice 
-        li Participate in Clubs 
-        li Personal Projects 
+    .inforow 
+        .leftflex
+            div.start
+                h2 Information About Major 
+                p 
+                | Biological and agricultural engineers are concerned with the design,
+                | improvement, and construction of farming machinery and equipment. They
+                | integrate technology with farming, like when they design new and improved
+                | farming equipment to work more efficiently or perform new tasks. They
+                | solve problems concerning power supplies, pollution and environmental 
+                | issues, machine efficiency, the use of structures and facilities, and the
+                | storage and processing of agricultural products. They tend to rarely work
+                | in an office setting and instead work in laboratories and on field work. 
+                | They have an high background in physics, chemistry, biology, and many different
+                | types of mathematics. 
+            
+            div.info    
+                h2 TAMU Info 
+                p At Texas A&M, students who graduate from Biological and Agricultural engineering will be able to successfully practice with other engineers and consultants in the natural resources, food processing, machine systems, bioprocessing, and agricultural production and processing fields. They are also prepared to pursue research and higher education at major universities in related fields. They are also able to choose an emphasis area that are either Environmental and Natural Resources, Renewable Energy, Food and Bioprocess, and Machine Systems. Biological and agricultural engineering takes 127 credit hours to complete. 
+                
+            .tableinfo
+                table
+                    tr
+                        th
+                            h2 Statistics
+                        th
+                            h2 Companies
+                        th
+                            h2 Preparation
+                    tr
+                        td
+                            ul
+                                li 60%
+                                li 40%
+                                li 60%
+                        td
+                            ul
+                                li 3M 
+                                li Radom Corp 
+                                li EDW. C. Levy CO.
+                        td
+                            ul
+                                li Research
+                                li Practice
+                                li Participate in Clubs
+                                li Personal Projects
+
+        .rightflex
+            meta(name='Video', content='SQEy7XQy5wc')
+            div#player

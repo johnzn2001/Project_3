@@ -2,26 +2,46 @@ extends _Majors
 
 block content
 
-    h1= title
-    p Welcome to the Industrial Engineering page!
+    div.titles
+        h1= title
+        p Welcome to the Industrial Engineering page!
 
-    meta(name='Video', content='Ww9hDlwjeF4')
-    div#player
-
-    h2 Information About Major 
-    p Industrial engineering is an engineering discipline that is concerned with the optimization of complex processes, systems, or organizations by developing, improving, and implementing integrated systems of people, money, knowledge, information, and equipment. Industrial engineers primarily do this by devising systems that integrate workers, machines, information, and energy to create a product or service. They perform both offsite and onsite work, with implantation of their work primarily occurring onsite. Industrial engineers are able to perform these tasks due to their ability to apply science, mathematics, and engineering methods. 
-    h2 TAMU Info 
-    p At Texas A&M, those who are pursing an industrial engineering degree will learn how to design, install, improve, and control integrated systems of people, materials, and facilities. This skillset is applied and learned to be used in a wide variety of organizations that produce goods or services. In this degree, students will uniquely focus on the human factors and the quantification and systematic removal of uncertainty from production systems. Industrial engineering requires a total of 128 credit hours to complete. 
-    h2 Statistics
-    p [enter statistics]
-    h2 Companies 
-    ul 
-        li United Postal Service (UPS) 
-        li Amazon
-        li Larsen & Toubro 
-    h2 Preparation 
-    ol 
-        li Research
-        li Practice 
-        li Participate in Clubs 
-        li Personal Projects 
+    
+    .inforow 
+        .leftflex 
+            div.start
+                h2 Information About Major 
+                p Industrial engineering is an engineering discipline that is concerned with the optimization of complex processes, systems, or organizations by developing, improving, and implementing integrated systems of people, money, knowledge, information, and equipment. Industrial engineers primarily do this by devising systems that integrate workers, machines, information, and energy to create a product or service. They perform both offsite and onsite work, with implantation of their work primarily occurring onsite. Industrial engineers are able to perform these tasks due to their ability to apply science, mathematics, and engineering methods. 
+            div.info
+                h2 TAMU Info 
+                p At Texas A&M, those who are pursing an industrial engineering degree will learn how to design, install, improve, and control integrated systems of people, materials, and facilities. This skillset is applied and learned to be used in a wide variety of organizations that produce goods or services. In this degree, students will uniquely focus on the human factors and the quantification and systematic removal of uncertainty from production systems. Industrial engineering requires a total of 128 credit hours to complete. 
+                
+            .tableinfo
+                table
+                    tr
+                        th
+                            h2 Statistics
+                        th
+                            h2 Companies
+                        th
+                            h2 Preparation
+                    tr
+                        td
+                            ul
+                                li 60%
+                                li 40%
+                                li 60%
+                        td
+                            ul
+                                li United Postal Service (UPS) 
+                                li Amazon
+                                li Larsen & Toubro 
+                        td
+                            ul
+                                li Research
+                                li Practice
+                                li Participate in Clubs
+                                li Personal Projects   
+        .rightflex 
+            meta(name='Video', content='Ww9hDlwjeF4')
+            div#player

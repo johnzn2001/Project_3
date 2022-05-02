@@ -2,26 +2,46 @@ extends _Majors
 
 block content
 
-    h1= title
-    p Welcome to the Ocean Engineering page!
+    div.titles
+        h1= title
+        p Welcome to the Ocean Engineering page!
     
-    meta(name='Video', content='3RLl5mqabkg')
-    div#player
     
-    h2 Information About Major 
-    p Ocean engineers prepare people to build systems that monitor and control coastal environments. Those involved in this career learn to become responsible for internal systems of a ship as well, including the propulsion, electrical, refrigeration, and steering systems. Ocean engineering provides a link between other ocean-based disciplines such as marine biology, chemical and physical oceanography, and marine geology and geophysics. 
-    h2 TAMU Info 
-    p At Texas A&M, the required Ocean Engineering coursework works to incorporate many different skillsets that will allow for the student to have a versatile career. Students learn to build dikes, flood control systems, and power stations in or near the ocean. This is done with the required math and science knowledge which allows for them to solve problems caused by tidal forces, waves, and currents. Ocean engineering at Texas A&M requires a total of 128 credit hours to complete.
-    h2 Statistics
-    p [enter statistics]
-    h2 Companies 
-    ul 
-        li ExxonMobil 
-        li Shell
-        li US Department of Defense 
-    h2 Preparation 
-    ol 
-        li Research
-        li Practice 
-        li Participate in Clubs
-        li Personal Projects 
+    .inforow 
+        .leftflex 
+            div.start
+                h2 Information About Major 
+                p Ocean engineers prepare people to build systems that monitor and control coastal environments. Those involved in this career learn to become responsible for internal systems of a ship as well, including the propulsion, electrical, refrigeration, and steering systems. Ocean engineering provides a link between other ocean-based disciplines such as marine biology, chemical and physical oceanography, and marine geology and geophysics. 
+            div.info
+                h2 TAMU Info 
+                p At Texas A&M, the required Ocean Engineering coursework works to incorporate many different skillsets that will allow for the student to have a versatile career. Students learn to build dikes, flood control systems, and power stations in or near the ocean. This is done with the required math and science knowledge which allows for them to solve problems caused by tidal forces, waves, and currents. Ocean engineering at Texas A&M requires a total of 128 credit hours to complete.
+
+            .tableinfo
+                table
+                    tr
+                        th
+                            h2 Statistics
+                        th
+                            h2 Companies
+                        th
+                            h2 Preparation
+                    tr
+                        td
+                            ul
+                                li 60%
+                                li 40%
+                                li 60%
+                        td
+                            ul
+                                li ExxonMobil 
+                                li Shell
+                                li US Department of Defense
+                        td
+                            ul
+                                li Research
+                                li Practice
+                                li Participate in Clubs
+                                li Personal Projects   
+        .rightflex 
+            meta(name='Video', content='3RLl5mqabkg')
+            div#player

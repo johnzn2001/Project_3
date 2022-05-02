@@ -2,26 +2,46 @@ extends _Majors
 
 block content
 
-    h1= title
-    p Welcome to the Materials Science and Engineering page!
+    div.titles
+        h1= title
+        p Welcome to the Materials Science and Engineering page!
     
-    meta(name='Video', content='x5OD2KZXd54')
-    div#player
     
-    h2 Information About Major 
-    p Materials Science and Engineering combines engineering, physics and chemistry principles to solve real world problems that are associated with nanotechnology, biotechnology, information technology, energy, manufacturing, and various engineering disciplines. These engineers find how certain materials perform and the reason why they sometimes fail. They need to understand the structure of matter, from atomic scale to millimeter scale, to invent new ways to combine chemicals and elements into materials with new functional properties. Other engineering disciplines rely on materials science and engineering in order to find the right material needed to build a variety of things, from faster computers with larger hard drive capacities to renewable energy harvesting devices. 
-    h2 TAMU Info 
-    p At Texas A&M, those who are pursuing a materials science and engineering degree will have a strong foundation in chemistry, physics and mathematics to explore the fundamental concepts and techniques that are deemed critical to the field of materials science and engineering. They will have a large amount of flexibility to explore interdisciplinary studies or to focus greater in depth into a concentration area. Students will study the connections between the synthesis and processing of a material including its underlying structure and properties. Materials science and engineering requires a total of 127 credit hours to complete.
-    h2 Statistics
-    p [enter statistics]
-    h2 Companies 
-    ul 
-        li Boeing 
-        li Honeywell 
-        li Lockheed Martin
-    h2 Preparation 
-    ol 
-        li Research
-        li Practice 
-        li Participate in Clubs 
-        li Personal Projects 
+    .inforow 
+        .leftflex 
+            div.start
+                h2 Information About Major 
+                p Materials Science and Engineering combines engineering, physics and chemistry principles to solve real world problems that are associated with nanotechnology, biotechnology, information technology, energy, manufacturing, and various engineering disciplines. These engineers find how certain materials perform and the reason why they sometimes fail. They need to understand the structure of matter, from atomic scale to millimeter scale, to invent new ways to combine chemicals and elements into materials with new functional properties. Other engineering disciplines rely on materials science and engineering in order to find the right material needed to build a variety of things, from faster computers with larger hard drive capacities to renewable energy harvesting devices. 
+            div.info
+                h2 TAMU Info 
+                p At Texas A&M, those who are pursuing a materials science and engineering degree will have a strong foundation in chemistry, physics and mathematics to explore the fundamental concepts and techniques that are deemed critical to the field of materials science and engineering. They will have a large amount of flexibility to explore interdisciplinary studies or to focus greater in depth into a concentration area. Students will study the connections between the synthesis and processing of a material including its underlying structure and properties. Materials science and engineering requires a total of 127 credit hours to complete.
+            
+            .tableinfo
+                table
+                    tr
+                        th
+                            h2 Statistics
+                        th
+                            h2 Companies
+                        th
+                            h2 Preparation
+                    tr
+                        td
+                            ul
+                                li 60%
+                                li 40%
+                                li 60%
+                        td
+                            ul
+                                li Boeing 
+                                li Honeywell 
+                                li Lockheed Martin
+                        td
+                            ul
+                                li Research
+                                li Practice
+                                li Participate in Clubs
+                                li Personal Projects
+        .rightflex 
+            meta(name='Video', content='x5OD2KZXd54')
+            div#player
