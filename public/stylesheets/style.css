@@ -24,7 +24,7 @@ a:hover {
 
 .topnav {
   overflow: visible;
-  display: block;
+  display: flex;
   background-color: #500000; /* maroon */
   padding: 8px;
   margin: 0;
@@ -37,6 +37,9 @@ a:hover {
   position: -webkit-sticky; /* safari web requires */
   top: 0;
   z-index: 2;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
 }
 
 .topnav a {
@@ -74,6 +77,7 @@ a:hover {
 
 .topnav .topnavSearch {
   float: right;
+  margin-left: auto;
 }
 
 .unibox {
@@ -135,12 +139,9 @@ a:hover {
 }
 
 #player {
- /*display: inline-block;
-  position: relative;
-  top: 23%;
-  left: 55%;*/
-  display: block;
-  margin: auto;
+  max-width: 100%;
+  width: 100%;
+
 }
 
 .collapsible {
@@ -185,6 +186,7 @@ a:hover {
   position: sticky;
   position: -webkit-sticky; /* safari web requires */
   top: 119px;
+  z-index: 1;
 }
 
 #play, #pause, #stop {
@@ -261,93 +263,83 @@ a:hover {
   flex-direction: row;
 }
 
-.jumbotron .container {
-  max-width: 100%; /* allows the jumbotron to adjust on smaller widths */
-  background-color: #D3D3D3;
+.inforow {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 
-.jumbotron .container {
-  max-width: 100%; /* allows the jumbotron to adjust on smaller widths */
-  background-color: blueviolet;
+.leftflex {
+  flex: 50%;
+  padding: 10px;
+
 }
 
-.jumbotron h1 {
-  text-align: center; /* centers the heading */
-  color: #000000;
-  font-weight: 600;
-}
-
-.jumbotron p {
-  text-align: center; /* centers the heading */
-  color: #000000;
-  font-weight: 600;
-}
-
-.depcontainer {
-  display: block;
-  padding: 30px; /* fills out the container */
-  max-width: 100%; /* container to adjust on smaller widths */
-  background-color: #D3D3D3;
-  text-align: left;
-  width: auto;
-  height: auto;
-  overflow:auto;
+.rightflex {
+  flex:45%;
+  padding: 2px;
 }
 
 .start{
-  /*background-color: #D3D3D3;
-  position: relative;
-  width: 50%;
-  top: -400px;
-  border-radius: 1%;*/
   background-color: #D3D3D3;
-  border-radius: 1%;
-  list-style-position: inside;
+  padding: 20px;
+  margin: 2px;
+  max-width: 100%;
+  border-radius: 25px;
+}
+
+.start h2 {
+  text-align: center;
 }
 
 .titles{
   text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .info{
-  /*background-color: #D3D3D3;
-  position: relative;
-  top: -400px;
-  width: 50%;
-  border-radius: 1%;*/
   background-color: #D3D3D3;
-  border-radius: 1%;
+  padding: 20px;
+  margin: 2px;
+  max-width: 100%;
+  border-radius: 25px;
 }
 
-.extra{
-  /*position: flex;
-  top: 66%;
-  left: 46%;*/
-  background-color: #D3D3D3;
-  border-radius: 1%;
+.info h2 {
+  text-align: center;
 }
 
-.extra2{
-  /*position: absolute;
-  left: 60%;
-  top: 66%;*/
+.tableinfo{
   background-color: #D3D3D3;
-  border-radius: 1%;
+  padding: 20px;
+  margin: 2px;
+  max-width: 100%;
+  border-radius: 25px;
+  text-align: center;
 }
 
-.extra3{
-  /*position: absolute;
-  left: 31%;
-  top: 66%;*/
-  background-color: #D3D3D3;
-  border-radius: 1%;
+table {
+  max-width: 100%;
+  width: 100%;
+  text-align: center;
+  padding: 30px; /* fills out the container */
 }
 
-.space{
-  color: white;
+table td {
+  text-align: left;
 }
 
-.extra4{
-  background-color: #D3D3D3;
-  border-radius: 1%;
+table ul {
+  text-align: center;
+  display: inline-block;
+}
+
+table li {
+  text-align: left;
+}
+
+footer {
+  margin-left: 10px;
 }
